@@ -1,0 +1,74 @@
+* {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    min-width: 100%;
+    display: flex;
+    background-color: #e9edc9;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    font-size: 38px;
+}
+
+#main {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+#image {
+    max-width: 100%;
+    width: fit-content;
+    height: auto;
+}
+
+.timeline-items {
+    display: flex;
+    
+}
+
+.timeline {
+
+    max-width: 600px;
+
+
+}
+
+.testimonial {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    background-color: #e9edc9;
+    width: 100%;
+    align-items: center;
+}
+
+.testimonial .text {
+    padding-top: 20px;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+.testimonial .prime-minister {
+    padding-bottom: 20px;
+}
+
+.footer {
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
